@@ -33,6 +33,9 @@ int main (){
                 cout<<"Nombre:"<<naci[i].nombre<<endl;
                 cout<<"Fecha de nacimiento:"<<naci[i].dia<<"/"<<naci[i].mes<<"/"<<naci[i].anio<<endl;
             }
+            else{
+                cout<<"No hay ninguna fecha regisrtada con ese mes.";
+            }
         }
     }while(m!=0);
     return 0;
